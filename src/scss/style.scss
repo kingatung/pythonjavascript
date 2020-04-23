@@ -1,0 +1,116 @@
+@media (max-width: 580px) {
+    .navbar-brand {
+        color: #F56603 !important;
+    }
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.jumbotron {
+    background: transparent !important;
+}
+
+.carousel-item ul li {
+    display: table-cell;
+    padding-right: 30px;
+}
+
+.carousel-item ul li:last-child {
+    padding-right: 0px;
+}
+
+.carousel-item ul li p {
+    font-style: italic;
+    color: #8E8E8E;
+}
+
+.carousel-item ul li p>b {
+    font-style: normal;
+    color: #4B4B4B;
+}
+
+.table td,
+.table th {
+    border-top: none;
+}
+
+#momo td {
+    vertical-align: middle !important;
+}
+
+#momo table {
+    height: 100%;
+    margin-bottom: 0px;
+}
+
+.seecolor {
+    background: #CDE9FF;
+    color: #474747;
+    padding: 10px;
+    font-style: italic;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #2D2D2D;
+    padding: 20px 0px 5px 0px;
+    p,
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #F56603;
+        text-decoration: none;
+    }
+    hr {
+        border: 0px;
+        border-bottom: 1px solid white;
+    }
+    .subfooter {
+        font-size: 12px;
+    }
+    .totitle {
+        font-size: 16px;
+        font-weight: bold;
+        color: #F56603;
+    }
+    .clsogo {
+        font-size: 28px;
+        font-weight: bold;
+    }
+}
+
+.mservice {
+    text-align: center;
+}
+
+.mservice hr {
+    width: 65%;
+    border: 0px;
+    border-bottom: 1px solid #F56603;
+}
+
+%omtitle {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ooom1 {
+    @extend %omtitle;
+    color: #F56603;
+}
+
+.ooom3 {
+    @extend %omtitle;
+    color: #0BB65A;
+}
+
+.ooom2 {
+    @extend %omtitle;
+    color: #5008B6;
+}
